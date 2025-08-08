@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <nav>
+        <header>
+            <div class="header-logo">
+                <img src="mascot.png" alt="logo">
+            </div>
+            <div class="container">
+                <input type="text" placeholder="Buscar">
+                <div class="btn">
+                    <i class="fa fa-search">
+                        <div class="img22">
+                            <img src="lupa.png" height="20px" width="20px">
+                        </div>
+                    </i>
+                </div>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="#INICIO" class="smooth">INICIO</a></li>
+                    <li><a href="#PLANEA" class="smooth">PLANEA</a></li>
+                    <li><a href="#NOSOTROS" class="smooth">NOSOTROS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Aquí iría el contenido del navbar que ya tienes -->
+    </nav>
+    <main>
+        <div id="preguntas">
+        <section class="questions">
+            <h1>Responde para obtener recomendaciones:</h1>
+            <form id="questionsForm">
+                <!-- Aquí puedes agregar las 10 preguntas -->
+                <div>
+                    <label for="destino">¿A dónde viajarás?</label>
+                    <input type="text" id="destino" name="destino" required>
+                </div>
+                <div>
+                    <label for="duracion">¿Cuántos días te quedarás?</label>
+                    <input type="text" id="duracion" name="duracion" required>
+                </div>
+                <div>
+                    <label for="estacion">¿En qué estación del año será tu viaje?</label>
+                    <input type="text" id="estacion" name="estacion" required>
+                </div>
+                <!-- Agrega más preguntas según sea necesario -->
+                <button class="recommendationsButton" type="submit" >Resultados</button>
+            </form>
+        </section>
+
+        <div id="vv"> <img id="img"  src="viaje.jpg" alt="Viaje" width="600px" height="475px"> </div>
+    </div>
+            <div id="results"></div>
+      
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>TRIPPIE</h3>
+                <p>Sonsonate<br>Sonsonate/Sonzacate</p>
+                <p>+503 7398-7342<br>+503 7566-0837<br>trippie@gmail.com</p>
+                <div class="social-icons">
+                    <a href="#"><img src="icon-facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="icon-instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="icon-twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="icon-linkedin.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="icon-youtube.png" alt="YouTube"></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div><a href="#">Instagram</a></div>
+                <div><a href="#">Facebook</a></div>
+                <div><a href="#">Youtube</a></div>
+                <div><a href="#">Tik Tok</a></div>
+                <div><a href="#">X</a></div>
+            </div>
+           
+           
+        </div>
+    </footer>
+</body>
+</html>

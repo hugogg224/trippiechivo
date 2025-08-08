@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif; /* Example font family, adjust as per your design */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #f8f9fa; /* Example background color */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000; /* Ensure header is on top of other content */
+}
+
+/* Main content styles */
+main {
+    padding: 80px 20px; /* Adjust padding as needed */
+}
+
+.recommendations-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.recommendation-item {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff; /* Example background color */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example box shadow */
+}
+
+.recommendation-item img {
+    width: 150px; /* Adjust image size as needed */
+    margin-right: 20px;
+    border-radius: 8px; /* Rounded corners for the image */
+}
+
+.recommendation-text h2 {
+    margin-top: 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40; /* Example background color */
+    color: #ffffff; /* Example text color */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    text-align: left;
+}
+
+.footer-links {
+    text-align: right;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}

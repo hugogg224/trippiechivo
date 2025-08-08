@@ -1,0 +1,305 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffbf7b;
+    border-bottom: 1px solid #000000;
+}
+
+.header-logo img {
+    max-width: 100px;
+}
+
+.logoES {
+    position: relative;
+    top: 2px;
+    left: -200px;
+}
+
+.palm {
+    height: 200px;
+    width: 100px;
+    position: absolute;
+    right: 63px;
+    bottom: 448px;
+}
+
+.palm img {
+    height: 100%;
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.btn {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn .fa-search {
+    font-size: 20px;
+    color: #333;
+}
+
+.btn .img22 img {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-toggle div {
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+}
+
+.faq-section h2 {
+    text-align: center;
+}
+
+.faq-question {
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+
+.faq-answer {
+    display: none;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.faq-question {
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.faq-answer {
+    display: none;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav {
+    height: auto;
+}
+
+.strip-image {
+    width: 100%;
+    overflow: hidden;
+}
+
+.strip-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: left;
+    border-top: 1px solid #e7e7e7;
+    margin-top: auto; 
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-logo h3 {
+    font-size: 1.5rem;
+}
+
+.footer-logo p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.footer-logo .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.footer-logo .social-icons a img {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.image-container {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 100%; 
+    max-height: 80vh; 
+}
+
+#image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px; 
+}
+
+.image {
+    margin: 20px;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
+}
+
+.image:hover {
+    transform: scale(1.1); 
+}
+
+.image-caption {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.footer-links {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-links div {
+    flex: 1 1 20%;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.strip-image {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 100px; 
+}
+
+.strip-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    nav ul.show {
+        display: flex;
+    }
+    nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .btn {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .hero-section .subtext {
+        flex-direction: column;
+    }
+    .hero-section .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header-logo img {
+        max-width: 80px;
+    }
+    .container input[type="text"] {
+        max-width: 65px;
+    }
+  }

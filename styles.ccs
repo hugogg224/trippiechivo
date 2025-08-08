@@ -1,0 +1,264 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section{
+  background-image: url("bsantiago.jpg"); 
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e7e7e7;
+}
+.header-logo img {
+  max-width: 100px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  margin-left: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.container input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+.btn {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.btn .fa-search {
+  font-size: 20px;
+  color: #333;
+}
+.btn .img22 img {
+  max-width: 20px;
+  max-height: 20px;
+}
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.menu-toggle div {
+  width: 100%;
+  height: 3px;
+  background-color: #333;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f0f0f0;
+}
+.hero-section img {
+  max-width: 100%;
+  height: auto;
+}
+.hero-section h1 {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+.hero-section .subtext {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+.hero-section .subtext h2 {
+  font-size: 1.5rem;
+}
+.hero-section .buttons {
+  display: flex;
+  gap: 10px;
+}
+.hero-section .buttons button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.hero-section .buttons .btn-black {
+  background-color: #000;
+  color: #fff;
+}
+.hero-section .buttons .btn-white {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.explore-section {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: left;
+}
+.explore-section h2 {
+  font-size: 1rem;
+  color: #888;
+}
+.explore-section h1 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+.explore-section p {
+  font-size: 1rem;
+  color: #555;
+}
+.explore-section .details {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.explore-section .detail-item {
+  flex: 1;
+  margin-right: 20px;
+}
+.explore-section .detail-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.explore-section .buttons {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+.explore-section .buttons button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.explore-section .buttons .btn-black {
+  background-color: #000;
+  color: #fff;
+}
+.explore-section .buttons .btn-white {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+.explore-section .image-placeholder {
+  text-align: center;
+}
+.explore-section .image-placeholder img {
+  max-width: 100%;
+  height: auto;
+  background-color: #e0e0e0;
+}
+
+footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: left;
+  border-top: 1px solid #e7e7e7;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  flex: 1;
+  margin-right: 20px;
+}
+.footer-logo h3 {
+  font-size: 1.5rem;
+}
+.footer-logo p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+.footer-logo .social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.footer-logo .social-icons a img {
+  max-width: 20px;
+  max-height: 20px;
+}
+.footer-links {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-links div {
+  flex: 1 1 20%;
+  margin-bottom: 10px;
+}
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .menu-toggle {
+      display: flex;
+  }
+  nav ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+  }
+  nav ul.show {
+      display: flex;
+  }
+  nav ul li {
+      margin-left: 0;
+      margin-bottom: 10px;
+      text-align: center;
+  }
+  .container {
+      flex-direction: column;
+      padding: 10px;
+  }
+  .btn {
+      margin-left: 0;
+      margin-top: 10px;
+  }
+  .hero-section .subtext {
+      flex-direction: column;
+  }
+  .hero-section .buttons {
+      flex-direction: column;
+      gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-logo img {
+      max-width: 80px;
+  }
+  .container input[type="text"] {
+      max-width: 65px;
+  }
+}

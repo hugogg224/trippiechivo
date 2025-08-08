@@ -1,0 +1,2 @@
+# trippieAI
+# pokedex
